@@ -4,8 +4,7 @@ While this project was a collaborative group effort, I want to emphasize that al
 ## Introduction
 Following Kauppi and Saikonnen (2008)’s model with the US interest rate spread data, we developed dynamic binary probit/logit models for predicting U.S. recessions using the interest rate spread & lags of the recession binary variable as the driving predictors with gradient boosting.
 ## Data Source
-Data for this analysis was taken from the Federal Reserve Economic Data (FRED) online database, a comprehensive resource with sufficient data on US economic indicators (Mendez-Carbajo & Podleski, 2021).  
-Our starting date was 1953 April which is the earliest date with data for 10-Year Treasury Bills. We partitioned our test set to include 3 recession periods: the Early 2000s Recession, the 2007-2008 Global Financial Crisis, and the 2020 COVID-19 Recession.   
+Data for this analysis was taken from the Federal Reserve Economic Data (FRED) online database, a comprehensive resource with sufficient data on US economic indicators (Mendez-Carbajo & Podleski, 2021). Our starting date was 1953 April which is the earliest date with data for 10-Year Treasury Bills. We partitioned our test set to include 3 recession periods: the Early 2000s Recession, the 2007-2008 Global Financial Crisis, and the 2020 COVID-19 Recession.   
 
 Target Variable: Binary US Recession Indicator (USREC)
 
